@@ -5,7 +5,7 @@
         <label>upsertActivityCheckbox</label>
         <locationX>737</locationX>
         <locationY>863</locationY>
-        <actionName>ActivityAPI</actionName>
+        <actionName>FieloRO.ActivityAPI</actionName>
         <actionType>apex</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -47,7 +47,7 @@
         <label>upsertActivityPicklist</label>
         <locationX>473</locationX>
         <locationY>971</locationY>
-        <actionName>ActivityAPI</actionName>
+        <actionName>FieloRO.ActivityAPI</actionName>
         <actionType>apex</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
