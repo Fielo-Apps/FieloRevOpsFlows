@@ -5,7 +5,7 @@
         <label>UpsertActivity</label>
         <locationX>737</locationX>
         <locationY>863</locationY>
-        <actionName>FieloRO.ActivityAPI</actionName>
+        <actionName>FieloRO__ActivityAPI</actionName>
         <actionType>apex</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
