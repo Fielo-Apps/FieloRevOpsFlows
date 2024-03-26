@@ -277,7 +277,7 @@
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>ActivityTypeDetail__c</object>
+        <object>FieloRO__ActivityTypeDetail__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <start>
