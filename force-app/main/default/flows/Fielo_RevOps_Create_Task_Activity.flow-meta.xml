@@ -65,7 +65,7 @@
         <inputParameters>
             <name>result</name>
             <value>
-                <elementReference>Get_Result_Id.ConsiderDone__c</elementReference>
+                <elementReference>Get_Result_Id.FieloRO__ConsiderDone__c</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
