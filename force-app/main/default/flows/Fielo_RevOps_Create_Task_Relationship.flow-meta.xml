@@ -159,7 +159,7 @@
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>RelationshipPlan__c</object>
+        <object>FieloRO__RelationshipPlan__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
@@ -180,7 +180,7 @@
             </value>
         </filters>
         <filters>
-            <field>RelationshipPlan__c</field>
+            <field>FieloRO__RelationshipPlan__c</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>Get_Plan.Id</elementReference>
@@ -201,7 +201,7 @@
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>Status__c</field>
+            <field>FieloRO__Status__c</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>$Record.ResultName__c</elementReference>

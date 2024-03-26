@@ -249,7 +249,7 @@
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>ActivityType__c</object>
+        <object>FieloRO__ActivityType__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
@@ -263,14 +263,14 @@
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>ActivityType__c</field>
+            <field>FieloRO__ActivityType__c</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>Get_Activity_Type.Id</elementReference>
             </value>
         </filters>
         <filters>
-            <field>Status__c</field>
+            <field>FieloRO__Status__c</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>$Record.ResultName__c</elementReference>

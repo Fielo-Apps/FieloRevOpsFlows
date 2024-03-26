@@ -120,7 +120,7 @@
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>Status__c</field>
+            <field>FieloRO__Status__c</field>
             <operator>EqualTo</operator>
             <value>
                 <stringValue>Active</stringValue>
@@ -157,7 +157,7 @@
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>ActivityType__c</object>
+        <object>FieloRO__ActivityType__c</object>
         <sortField>CreatedDate</sortField>
         <sortOrder>Asc</sortOrder>
         <storeOutputAutomatically>true</storeOutputAutomatically>
