@@ -113,12 +113,12 @@
     <formulas>
         <name>F_Datetime</name>
         <dataType>DateTime</dataType>
-        <expression>IF(ISNULL({!$Record.FieloRO__Datetime__c}), {!$Flow.CurrentDateTime}, {!$Record.FieloRO__Datetime__c})</expression>
+        <expression>IF(ISNULL({!$Record.Datetime__c}), {!$Flow.CurrentDateTime}, {!$Record.Datetime__c})</expression>
     </formulas>
     <formulas>
         <name>F_User</name>
         <dataType>String</dataType>
-        <expression>BLANKVALUE(NULLVALUE({!$Record.FieloRO__User__c}, {!$User.Id}), {!$User.Id})</expression>
+        <expression>BLANKVALUE(NULLVALUE({!$Record.User__c}, {!$User.Id}), {!$User.Id})</expression>
     </formulas>
     <interviewLabel>Fielo RevOps - Create Task Relationship {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Fielo RevOps - Create Task Relationship</label>
